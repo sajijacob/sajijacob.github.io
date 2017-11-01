@@ -1,0 +1,321 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+	box-sizing: border-box;
+	text-align: right;
+}
+
+body {
+	width: 99%;
+
+}
+
+header {
+  padding: 36px;
+  margin-bottom: 20px;
+  color: #888;
+  background: #ccc;
+}
+
+
+section {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#section1 {
+	padding: 5px;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
+#headerleft0 {
+ 	background-color: #ccc; 
+	width: 8%;
+	float: left;
+}
+
+#headerleft1 {
+ 	background-color: #ccc; 
+	width: 20%;
+	float: left;
+	font-color: #fff;
+
+}
+#headerleft3 {
+ 	background-color: #ccc; 
+	width: 20%;
+	float: left;
+
+}
+
+
+#headerleft2 {
+ 	width: 200px;
+	float: left;
+	font-family: "Trebuchet MS, Arial, Helvetica, sans-serif";
+	font-color: #636465;
+	font-size: 17px;
+
+}
+
+.saji {
+	margin: 6% auto;
+	padding: 5px;
+	position: left;
+	width: 250px;
+	text-align: justify;
+	}
+
+#headerleft {
+ 	background-color: #0780cc; 
+	width: 20%;
+	float: left;
+	font-family: "Trebuchet MS";
+	font-size: 45px; 
+	font-style: bold;
+	font-color: white;
+	margin-top: -37px;
+	padding: 20px;
+}
+
+#left {
+	background-color: #09C;
+	width: 10%;
+	float: left;
+	border: : 1px solid #eee;
+
+}
+
+#middle {
+	background-color: #ddd; 
+	width: 60%;
+	float: left;
+	padding: 15px;
+	height: 500px;
+}
+
+#middle1 {
+	background-color: #ddd; 
+	width: 60%;
+	float: left;
+	padding: 10px;
+	height: 200px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    margin: 4em 0;
+    padding: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    margin: 4em 0;
+    padding: 0;
+}
+
+#right {
+	background-color: #ddd;
+	width: 30%;
+	float: left;
+	border: 15px solid #09C;
+	margin-top: -15px;
+	padding: 50px;
+	height: 300px
+
+}
+
+#full {
+	widh: 100%;
+	padding: 25px;
+	overflow: auto;
+
+}
+
+#division {
+  margin-top: 20px;
+  padding: 20px;
+  background: #6ea3da;
+}
+
+#title {
+	margin-bottom: 1px;
+	font-family: "Trebuchet MS";
+	font-color: #0a5ca1; 
+	font-size: 25px;
+	float: left;
+
+
+}
+
+#title1 {
+	margin-bottom: 1px;
+	font-family: "Trebuchet MS";
+	font-color: #0a5ca1; 
+	font-size: 25px;
+	float: right;
+
+
+}
+#title2{
+	margin-top: -270px;
+	font-family: "Trebuchet MS";
+	font-color: #0a5ca1; 
+	font-size: 25px;
+	float: left;
+	margin-left: 30px;
+
+
+}
+
+#title3{
+	margin-top: -328px;
+	font-family: "Trebuchet MS";
+	font-color: #0a5ca1; 
+	font-size: 25px;
+	float: left;
+	margin-left: 30px;
+
+
+}
+
+.a {
+	font-size: 24px;
+	color: #636465;
+	text-decoration: none;
+	
+	
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #636465;
+}
+a:hover {
+	text-decoration: none;
+	color: #636465;
+}
+a:active {
+	text-decoration: none;
+
+}
+
+a{
+
+
+}
+
+
+
+
+aside {
+  float: left;
+  width: 33%;
+  margin-left: 30px;
+  padding: 20px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+#left1 {
+	width: 10%;
+	float: left;
+	border: : 0px solid #eee;
+}
+
+#box {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+	text-align: justify;
+}
+
+.img {	
+	float: left;
+	padding: 10px;
+	margin-top: -60px;
+	
+
+}
+p{
+	font-size: 16px;
+	font-color: #ccc;
+	text-align:justify;
+	font-family: "Trebuchet MS";
+	margin-left: 15px;
+	margin-top: 10px;
+	position: relative;
+		
+}
+
+#text{
+	font-size: 16px;
+	font-color: #ccc;
+	text-align:justify;
+	font-family: "Trebuchet MS";
+	margin-top: 10px;
+	position: absolute;
+	float: left;
+	margin-right: 10px;
+		
+}
+
+.p1{
+	font-size: 16px;
+	font-color: green;
+	position: relative;
+	width: 95%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 5%;
+
+	
+}
+
+.p2{	
+	
+	position: relative;
+	margin-top: 5px;
+	
+	
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px;
+    margin-bottom: 10px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+footer {
+	position: relative;
+	margin-top: 39%;
+	background-color: #ccc;
+	color: both;
+
+}
